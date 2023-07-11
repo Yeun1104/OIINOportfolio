@@ -1,0 +1,83 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding-top: 40px;
+}
+
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 10px 10px;
+    text-align: center;
+    font-size: 150px;
+}
+
+
+#header .right_header_menu{
+    float: right;
+}
+
+.right_header_menu a{
+    width: 40px;
+    height: 40px;
+
+    float: left;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 4px;
+
+    margin-right: 25px;
+}
+
+.icon_img {
+    width: 40px;
+    height: 40px;
+}
+
+aside {
+    width: 100%;
+}
+
+aside .wrap{
+    flex: 1;
+    text-align: center;
+    right: 0;
+    margin-top: 13%;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+aside .wrap .wrap_yoso{
+    width: 200px;
+    height: 250px;
+    margin: 100px;
+    
+}
+.myImg{
+    width: 195px;
+    height: 250px;
+    border-radius: 100%;
+    border:12px ridge gray;
+}
+.wrap_img{
+    margin-top: 55px;
+    width: 100px;
+    height: 100px;
+}
+section{
+    display: none;
+    font-family: 'GmarketSans';
+}

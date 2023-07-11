@@ -1,0 +1,114 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Playfair Display', serif;
+    margin-top: 40px;
+}
+button{
+    border: none;
+    background-color: white;
+
+}
+#menu_icon{
+    width: 40px;
+    height: 40px;
+}
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 200px;
+    height: 100vh;
+    padding: 20px;
+}
+
+.menu {
+    display: none;
+}
+
+.menu.active {
+    display: block;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu li {
+    margin-bottom: 10px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+.portfolio{
+    margin-top: 290px;
+    text-align: center;
+    font-size: 150px;
+}
+
+
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    padding: 10px 10px;
+}
+
+
+#header .right_header_menu{
+    float: right;
+}
+
+.right_header_menu a{
+    width: 40px;
+    height: 40px;
+
+    float: left;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 4px;
+
+    margin-right: 25px;
+}
+
+.icon_img {
+    width: 40px;
+    height: 40px;
+}
+
+#activitiesSection, #awardSection{
+    margin-top: 150px;
+    margin-left: 170px;
+    font-family: 'NanumSquareNeo';
+    line-height: 30px;
+    font-size: 18px;
+}
+.d_img_box{
+    width: 100%;
+    display: inline;
+}
+.d_img_box img{
+    width: 650px;
+    height: 400px;
+}
+.d_img_box_phone img{
+    width: 300px;
+    height: 600px;
+}
+.designImg img{
+    width: 600px;
+    height: auto;
+}
